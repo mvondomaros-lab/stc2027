@@ -24,7 +24,7 @@ main { width: min(1280px, calc(100% - 3rem)); margin: 0 auto; }
 .hero { padding: clamp(2rem, 6vw, 5rem) 0 1.5rem; }
 
 .eyebrow { margin: 0 0 1.15rem; color: var(--pink); font: 500 .72rem/1 "DM Mono", monospace; letter-spacing: .14em; text-transform: uppercase; }
-.logo { display: block; width: min(100%, 867px); }
+.key-visual { display: block; width: 100%; max-height: 720px; object-fit: contain; object-position: center; }
 
 footer { display: flex; justify-content: center; padding: 1.25rem 0 3rem; color: #604470; font-size: .78rem; }
 footer p { margin: 0; }
